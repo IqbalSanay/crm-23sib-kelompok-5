@@ -11,6 +11,7 @@ import Helpdesk from "./pages/Helpdesk";
 import Pelanggan from "./pages/Pelanggan";
 import SignInPage from "./pages/SignInPage";
 import CampaignPage from "./pages/CampaignPage";
+import DaftarPromo from "./pages/DaftarPromo";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
         <Route path="/pelanggan" element={<Pelanggan />} />
         <Route path="/feedback" element={<Feedback />} />
         <Route path="/helpdesk" element={<Helpdesk />} />
+        <Route path="/DaftarPromo" element={<DaftarPromo />} />
       </Route>
     </Routes>
   );

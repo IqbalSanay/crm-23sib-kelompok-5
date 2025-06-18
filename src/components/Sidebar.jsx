@@ -18,17 +18,18 @@ import { Link, useLocation } from "react-router-dom";
 
 const menuItems = [
   { name: "Dashboard", icon: <LayoutDashboard />, path: "/Dashboard" },
-  { name: "Campaign", icon: <GrUnorderedList />, path: "/CampaignPage" },
+  { name: "Daftar Campaign", icon: <GrUnorderedList />, path: "/CampaignPage" },
   { name: "Produk", icon: <Box />, path: "/produk" },
+  { name: "Campaign Management", icon: <GrUnorderedList />, path: "/DaftarPromo" },
   // { name: 'Pelanggan', icon: <Box />, path: '/pelanggan' },
   { name: "Penjualan", icon: <ShoppingCart />, path: "/penjualan" },
   { name: "feedback", icon: <MessageCircle />, path: "/feedback" },
   { name: "helpdesk", icon: <HeadsetIcon />, path: "/helpdesk" },
-  { name: "Penjualan", icon: <ShoppingCart />, path: "/Penjualan" },
   { name: "Pelanggan", icon: <User />, path: "/pelanggan" },
   { name: "Laporan", icon: <BarChart2 />, path: "/laporan" },
   { name: "Tracking", icon: <MdSpatialTracking />, path: "/tracking" },
   { name: "OrderForm", icon: <GrUnorderedList />, path: "/orderform" },
+  
 ];
 
 const accountItems = [

@@ -12,7 +12,7 @@ const SignInPage = () => {
     // Di sini kamu bisa tambahkan validasi, API call dsb.
     console.log("Email:", email);
     console.log("Password:", password);
-    navigate("/dashboard");
+    navigate("/dashboard, { state: { fromLogin: true } });");
   };
 
   const handleGuestSignIn = () => {
